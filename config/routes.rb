@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'books#index'
 
+  get "new_follow" => 'users#new_follow', :as => :new_follow
+
   get "search_for" => "search_for#search_for", :as => :search_for
 
   get 'login' => 'sessions#new', :as => :login

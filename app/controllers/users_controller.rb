@@ -74,4 +74,8 @@ class UsersController < ApplicationController
     render 'show_follow'
   end
 
+  def new_follow
+
+  end
+
 end
